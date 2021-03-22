@@ -16,7 +16,7 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'HerringtonDarkholme/yats.vim'
 
   " Theme
-  Plug 'dracula/vim'
+  Plug 'tomasr/molokai'
 
   " Layout
   " Plug 'airblade/vim-gitgutter'
@@ -57,4 +57,15 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'tpope/vim-fugitive'
 
   Plug '907th/vim-auto-save'
+
+  Plug 'ncm2/ncm2-bufword'
+  Plug 'ncm2/ncm2-path'
+  Plug 'ncm2/ncm2-jedi'
+
+  Plug 'Chiel92/vim-autoformat'
+
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+  Plug 'wakatime/vim-wakatime'
+  Plug 'dyng/ctrlsf.vim'
 call plug#end()

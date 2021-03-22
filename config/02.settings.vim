@@ -16,8 +16,9 @@ set incsearch
 set visualbell
 set noerrorbells
 
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 set backspace=indent,eol,start
 
@@ -29,7 +30,6 @@ set mouse=a
 set laststatus=2
 set t_Co=256
 syntax on
-color dracula
 
 "use relative lines unless focus lost
 autocmd FocusLost * :set number
