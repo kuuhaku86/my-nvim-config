@@ -1,5 +1,6 @@
 nnoremap <silent> <F2> :NERDTreeToggle<CR>
-nnoremap <silent> <C-B> :bn<CR>
+nnoremap <silent> <Tab> :bn<CR>
+nnoremap <silent> <S-Tab> :bprevious<CR>
 nnoremap <silent> <C-X> :bd!<CR>
 nnoremap <silent> <C-S> :w<CR>
 "nmap <silent> <Leader>e :Explore<CR>
