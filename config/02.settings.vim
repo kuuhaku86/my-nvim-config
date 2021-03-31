@@ -60,5 +60,6 @@ set cmdheight=2
 set updatetime=3000
 set shortmess+=c
 set signcolumn=yes
+set clipboard=unnamedplus
 
 let g:auto_save = 1  " enable AutoSave on Vim startup
