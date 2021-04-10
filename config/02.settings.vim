@@ -75,7 +75,7 @@ let g:auto_save = 1  " enable AutoSave on Vim startup
 " let g:onedark_termcolors = 256
 " let g:onedark_terminal_italics = 0
 " let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-" syntax on
+syntax on
 " colorscheme onedark
 let g:airline_theme='one'
 "Credit joshdick

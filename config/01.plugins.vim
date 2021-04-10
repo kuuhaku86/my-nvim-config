@@ -47,6 +47,7 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'phpactor/phpactor', { 'do': ':call phpactor#Update()', 'for': 'php'}
   Plug 'phpactor/ncm2-phpactor', {'for': 'php'}
   Plug 'ncm2/ncm2-ultisnips'
+  Plug 'leafgarland/typescript-vim' " TypeScript syntax
   " Plug 'SirVer/ultisnips' should have been already added in previous
   " section
   Plug 'StanAngeloff/php.vim', {'for': 'php'}

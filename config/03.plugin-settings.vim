@@ -61,6 +61,7 @@ set statusline+=%*
 
 let g:ale_fixers = {}
 let g:ale_fixers['javascript'] = ['prettier', 'eslint']
+let g:ale_fixers['typescript'] = ['prettier', 'eslint']
 let g:ale_fix_on_save = 1
 
 let g:ale_sign_error = '●'
