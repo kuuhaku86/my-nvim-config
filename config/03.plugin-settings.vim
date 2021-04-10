@@ -176,6 +176,9 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 " UndoTree
 nmap <leader>uu :UndotreeToggle<cr>
 
+" Enable folding with the spacebar
+nnoremap <space> za
+
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-j>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"

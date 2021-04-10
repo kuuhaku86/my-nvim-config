@@ -12,11 +12,13 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
   Plug 'galooshi/vim-import-js', { 'do': 'npm install -g import-js' }
 
-  " Add or remove your plugins here like this:
-  Plug 'HerringtonDarkholme/yats.vim'
+  " Add or remove your plugins here like this: Plug 'HerringtonDarkholme/yats.vim'
 
   " Theme
-  Plug 'tomasr/molokai'
+  " Plug 'tomasr/molokai'
+  " Plug 'sjl/badwolf'
+  Plug 'joshdick/onedark.vim'
+  Plug 'rakr/vim-one'
 
   " Layout
   " Plug 'airblade/vim-gitgutter'
@@ -48,7 +50,6 @@ call plug#begin('~/.local/share/nvim/plugged')
   " Plug 'SirVer/ultisnips' should have been already added in previous
   " section
   Plug 'StanAngeloff/php.vim', {'for': 'php'}
-  Plug 'w0rp/ale'
 
   Plug 'adoy/vim-php-refactoring-toolbox', {'for': 'php'}
 
@@ -60,12 +61,10 @@ call plug#begin('~/.local/share/nvim/plugged')
 
   Plug 'ncm2/ncm2-bufword'
   Plug 'ncm2/ncm2-path'
-  Plug 'ncm2/ncm2-jedi'
 
   Plug 'Chiel92/vim-autoformat'
 
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
   Plug 'wakatime/vim-wakatime'
-  Plug 'dyng/ctrlsf.vim'
 call plug#end()
